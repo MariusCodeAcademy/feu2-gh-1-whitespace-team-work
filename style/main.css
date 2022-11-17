@@ -30,6 +30,10 @@
   width: 686px;
   height: 479px;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .btn-main {
   background-color: var(--primaryTwo);
   color: var(--secondaryWhite);
