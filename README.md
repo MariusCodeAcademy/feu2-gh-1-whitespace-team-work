@@ -9,5 +9,5 @@
 4. atliekam darba, publikuojam branch 
 5. kuriam Pull request
 6. trello pernesti code review ir prideti trello nuoroda
-7. parsitraukti dabartinius dev sakos pakeitimus `git mergre origin/dev`
+7. parsitraukti dabartinius dev sakos pakeitimus `git merge origin/dev`
 8. kitas task
