@@ -27,6 +27,7 @@
     border-radius: 10px;
     width: fit-content;
     color: #212529;
+    font-family: 'Inter', sans-serif;
 }
 .white-plan .btn-secondary {
     width:fit-content;
@@ -50,7 +51,6 @@
     line-height: 44px;
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: -0.02em;
     margin-bottom: 25px;
     margin-top: 0;
 }
@@ -69,4 +69,14 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 28px;
+}
+.white-plan .checkmark {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+.white-plan .perks li {
+    display: flex;
+    align-items: center;
+    gap: 18px;
 }
