@@ -25,6 +25,9 @@
   padding-top: 0;
   padding-bottom: 0;
   line-height: 20px;
+  font-weight: 400;
+  margin-top: 33px;
+  padding-bottom: 32px;
 }
 
 .footerBottom .terms {
@@ -48,7 +51,7 @@
   color: #fff;
 }
 
-footer p {
+.footerBottom p {
   margin: 0;
   padding: 0 6px;
 }
@@ -56,4 +59,13 @@ footer p {
 footer {
   background-color: #043873;
   color: #fff;
+}
+hr {
+  background: rgba(46, 78, 115, 1);
+  border: none;
+  height: 1px;
+}
+.hr.container {
+  padding-top: 0;
+  padding-bottom: 0;
 }
