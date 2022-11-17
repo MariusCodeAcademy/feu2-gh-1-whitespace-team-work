@@ -21,11 +21,11 @@ body {
 }
 
 .clientCard {
-  background-color: #4f9cf9;
+  background-color: var(--primaryTwo);
   max-width: 450px;
   border-radius: 10px;
   padding: 60px 40px;
-  color: #ffffff;
+  color: var(--secondaryWhite);
 }
 
 .clientQuote {
@@ -37,7 +37,7 @@ body {
 }
 
 .line {
-  background-color: #fff;
+  background-color: var(--secondaryWhite);
   height: 1px;
   margin-top: 40px;
 }
@@ -54,7 +54,7 @@ body {
   width: 260px;
 }
 .clientName {
-  color: #043873;
+  color: var(--primaryOne);
   font-size: 24px;
   line-height: 36px;
 }
