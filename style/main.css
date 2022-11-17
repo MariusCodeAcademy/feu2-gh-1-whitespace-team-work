@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
 
 .btn-main {
   background-color: var(--primaryTwo);
@@ -9,11 +9,60 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.02em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
   max-width: 1480px;
   margin: 0 auto;
   padding: 10px;
+}
+
+footer {
+  background-color: #043873;
+  color: white;
+  height: 705px;
+}
+.footerTop_textBox {
+  width: 600px;
+  height: 533px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerTop_textBox * {
+  text-align: center;
+}
+.footerTop__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 24px;
+  padding-top: 140px;
+}
+.footerTop__desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+.footerTop__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.02em;
 }
