@@ -1,49 +1,77 @@
-
 @import "mainColor";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
 
+.extension {
+  /* width: 1921px; */
+  height: 759px;
+  background-color: #043873;
+}
+.innerDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+  padding-top: 140px;
+}
+.extension h2,
+.extension p {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.extension h2 {
+  font-size: 72px;
+  font-weight: 700;
+}
+.extension p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.innerBox {
+  background-color: #c4defd;
+  width: 686px;
+  height: 479px;
+}
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .projectManagement {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .projectManagement .box1 {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .projectManagement .box2 {
-    background-color: #C4DEFD;;
+  background-color: #c4defd;
 }
 
 .projectManagement .sectionHeader {
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 87.14px;
-    margin-top: 68px;
-    margin-bottom: 24px;
-    color: #212529;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.14px;
+  margin-top: 68px;
+  margin-bottom: 24px;
+  color: #212529;
 }
 
 .projectManagement .pText {
-    font-weight: 400;
-    line-height: 30px;
-    font-size: 18px;
-    margin-bottom: 60px;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 60px;
 }
 
 .projectManagement .btn-main {
-    margin-bottom: 68px;
-
+  margin-bottom: 68px;
+}
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .btn-main {
@@ -55,7 +83,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.02em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
