@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
+body {
+  font-family: "Inter", sans-serif;
+}
 .btn-main {
   background-color: var(--primaryTwo);
   color: var(--secondaryWhite);
@@ -9,11 +11,55 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.02em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
   max-width: 1480px;
   margin: 0 auto;
   padding: 10px;
+}
+
+.clientCard {
+  background-color: #4f9cf9;
+  max-width: 450px;
+  border-radius: 10px;
+  padding: 60px 40px;
+  color: #ffffff;
+}
+
+.clientQuote {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 32px;
+  letter-spacing: -0.02em;
+  width: 391px;
+}
+
+.line {
+  background-color: #fff;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.clientInfo {
+  display: grid;
+  grid-template-columns: 95px 1fr;
+  align-items: center;
+  margin-top: 60px;
+  gap: 42px;
+}
+
+.clientText {
+  width: 260px;
+}
+.clientName {
+  color: #043873;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.clientOccupation {
+  font-size: 16px;
+  line-height: 20px;
 }
