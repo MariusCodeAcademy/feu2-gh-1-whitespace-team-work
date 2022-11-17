@@ -1,0 +1,13 @@
+.our-sponsors-section .our-sponsors {
+    display: flex;
+    margin: auto;
+    font-size: 72px;
+    margin-bottom: 100px;
+}
+
+.our-sponsors-section .our-sponsors_icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-between;
+}
