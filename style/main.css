@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
 
 .btn-main {
   background-color: var(--primaryTwo);
@@ -9,11 +9,23 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.02em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
   max-width: 1480px;
   margin: 0 auto;
   padding: 10px;
+}
+
+/* footer */
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
