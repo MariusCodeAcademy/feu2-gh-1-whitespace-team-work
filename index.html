@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style/main.css" />
     <link
       rel="stylesheet"
@@ -17,16 +23,24 @@
   <body>
     <h1>Whitespace</h1>
 
-    <section class="extension">
-      <h2 class="extension_title">Use as Extension</h2>
-      <p class="extension_subtitle">
-        Use the web clipper extension, available on Chrome and Firefox, to save
-        web pages or take screenshots as notes
-      </p>
-      <button class="extension_btn">
-        Let's go <i class="fa fa-arrow-right" aria-hidden="true"></i>
-      </button>
-      <div class="placeholderBox"></div>
+    <section class="container extension">
+      <div class="innerDiv">
+        <div class="leftSide">
+          <div class="textDiv">
+            <h2 class="extension_title">Use as Extension</h2>
+            <p class="extension_subtitle">
+              Use the web clipper extension, available on Chrome and Firefox, to
+              save web pages or take screenshots as notes
+            </p>
+            <button class="btn-main">
+              Let's go <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="placeholderBox">
+          <div class="innerBox"></div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
