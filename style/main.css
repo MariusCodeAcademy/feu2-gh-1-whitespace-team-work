@@ -1,4 +1,4 @@
-@import "mainColor";
+@import "/style/mainColor.css";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
 
 body {
@@ -18,15 +18,19 @@ body {
 }
 
 .container {
-  max-width: 1480px;
+  max-width: 1921px;
   margin: 0 auto;
   padding: 10px;
+}
+
+.app_container {
+  position: relative;
 }
 
 .app_section {
   text-align: center;
   padding: 140px 0;
-  background-color: #043873;
+  background-color: var(--primaryOne);
 }
 
 .app_title {
@@ -51,4 +55,10 @@ body {
   color: #ffffff;
   width: 1064px;
   margin: 0 auto 60px;
+}
+
+.app_image {
+  position: absolute;
+  top: -100%;
+  left: 0;
 }
