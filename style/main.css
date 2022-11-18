@@ -86,6 +86,7 @@ body {
   line-height: 30px;
   letter-spacing: -0.02em;
   font-family: 'Inter', sans-serif;
+  border: none;
 }
 
 .chooseYourPlan .planContainer {
