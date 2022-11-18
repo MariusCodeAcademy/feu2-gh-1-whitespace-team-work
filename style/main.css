@@ -171,7 +171,7 @@ footer {
   text-align: center;
 }
 .footerTop__title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -184,7 +184,7 @@ footer {
   padding-top: 140px;
 }
 .footerTop__desc {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -193,7 +193,7 @@ footer {
   letter-spacing: -0.02em;
 }
 .footerTop__text {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -209,7 +209,7 @@ footer {
   border-radius: 10px;
   width: fit-content;
   color: #212529;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .white-plan .btn-secondary {
@@ -263,3 +263,4 @@ footer {
   align-items: center;
   gap: 18px;
 }
+@import "./mobile-use-as-exptention.css";
