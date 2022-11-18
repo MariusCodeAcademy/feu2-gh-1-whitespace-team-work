@@ -1,7 +1,8 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
-
 header{
+    margin: 0;
     height: 92px;
+    background-color: var(--primaryOne);
+    color: var(--secondaryDarkGrey);
 
 }
 
@@ -13,9 +14,37 @@ header .container{
 }
 
 header ul{
+    margin:0;
     list-style: none;
     display: flex;
     flex-direction:row;
+    align-items: center;
+}
+
+header img{
+    max-width: 191px;
+}
+
+header .fa-chevron-down{
+    margin-left: 10px;
+    margin-right: 18px;
+    font-size: 9px;
+}
+
+header .fa-arrow-right{
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 15px;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+header button{
+    display: flex;
     align-items: center;
 }
 
