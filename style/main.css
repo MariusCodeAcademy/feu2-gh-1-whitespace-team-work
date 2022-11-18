@@ -42,7 +42,7 @@
 .innerBox {
   background-color: #c4defd;
   width: 686px;
-  height: 479px;
+  /* height: 479px; */
 }
 
 body {
@@ -246,6 +246,17 @@ footer {
   border-radius: 10px;
   width: fit-content;
   color: #212529;
+  font-family: 'Inter', sans-serif;
+}
+
+.blue-plan {
+  padding: 40px 44px;
+  border: 1px solid var(--secondaryYellow);
+  background-color: var(--secondaryWhite);
+  border-radius: 10px;
+  width: fit-content;
+  color: var(--secondaryWhite);
+  background-color: var(--primaryOne);
   font-family: 'Inter', sans-serif;
 }
 
