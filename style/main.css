@@ -426,3 +426,12 @@ footer {
   margin: 0;
   padding-left: 18px;
 }
+@media screen and (max-width: 768px) {
+  .our-sponsors_icons {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .our-sponsors_h2El {
+    margin-top: 120px;
+  }
+}
