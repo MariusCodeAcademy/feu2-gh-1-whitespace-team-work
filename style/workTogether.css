@@ -1,0 +1,185 @@
+@import "mainColor.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.extension {
+  /* width: 1921px; */
+  height: 759px;
+  background-color: #043873;
+}
+.innerDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+  padding-top: 140px;
+}
+.extension h2,
+.extension p {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.extension h2 {
+  font-size: 72px;
+  font-weight: 700;
+}
+.extension p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.innerBox {
+  background-color: #c4defd;
+  width: 686px;
+  height: 479px;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.projectManagement {
+  font-family: "Inter", sans-serif;
+}
+
+.projectManagement .box1 {
+  margin-right: 60px;
+}
+
+.projectManagement .box2 {
+  background-color: #c4defd;
+}
+
+.projectManagement .sectionHeader {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.14px;
+  margin-top: 68px;
+  margin-bottom: 24px;
+  color: #212529;
+}
+
+.projectManagement .pText {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.projectManagement .btn-main {
+  margin-bottom: 68px;
+}
+
+.btn-main {
+  background-color: var(--primaryTwo);
+  color: var(--secondaryWhite);
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+.chooseYourPlan .planContainer {
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+.chooseYourPlan .planContainer .sectionTitle {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.chooseYourPlan .planContainer .sectionSubtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto 60px;
+  max-width: 979px;
+}
+
+.clientCard {
+  background-color: var(--primaryTwo);
+  max-width: 450px;
+  border-radius: 10px;
+  padding: 60px 40px;
+  color: var(--secondaryWhite);
+}
+
+.clientQuote {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 32px;
+  letter-spacing: -0.02em;
+  width: 391px;
+}
+
+.line {
+  background-color: var(--secondaryWhite);
+  height: 1px;
+  margin-top: 40px;
+}
+
+.clientInfo {
+  display: grid;
+  grid-template-columns: 95px 1fr;
+  align-items: center;
+  margin-top: 60px;
+  gap: 42px;
+}
+
+.clientText {
+  width: 260px;
+}
+.clientName {
+  color: var(--primaryOne);
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.clientOccupation {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.workTogether {
+  height: 643px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 160px;
+}
+.workTogetherPng {
+  height: 543px;
+  width: 583px;
+}
+.wtgBox2 {
+  padding-top: 109px;
+  padding-bottom: 109px;
+}
+
+.workTogether p {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+.wtgHeading {
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.14px;
+  margin-bottom: 24px;
+  color: #212529;
+}
