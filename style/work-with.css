@@ -1,0 +1,29 @@
+@import "mainColor.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
+
+.workWithSection {
+  background-color: var(--primaryOne);
+  color: var(--secondaryWhite);
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.workWithSection .insideWorkWith {
+  display: flex;
+  gap: 100px;
+  letter-spacing: -0.02em;
+}
+.workWithTitle {
+  color: var(--secondaryWhite);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  margin: 0;
+}
+.workWithSubtitle {
+  margin-top: 24px;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
