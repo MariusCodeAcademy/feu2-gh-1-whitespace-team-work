@@ -1,7 +1,45 @@
+@import "mainColor.css";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.extension {
+  /* width: 1921px; */
+  height: 759px;
+  background-color: #043873;
+}
+.innerDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+  padding-top: 140px;
+}
+.extension h2,
+.extension p {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.extension h2 {
+  font-size: 72px;
+  font-weight: 700;
+}
+.extension p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.innerBox {
+  background-color: #c4defd;
+  width: 686px;
+  height: 479px;
+}
 body {
   font-family: "Inter", sans-serif;
 }
+
 .btn-main {
   background-color: var(--primaryTwo);
   color: var(--secondaryWhite);
@@ -14,10 +52,24 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.container {
-  max-width: 1480px;
-  margin: 0 auto;
-  padding: 10px;
+.chooseYourPlan .planContainer {
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+.chooseYourPlan .planContainer .sectionTitle {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.chooseYourPlan .planContainer .sectionSubtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto 60px;
+  max-width: 979px;
 }
 
 .clientCard {
