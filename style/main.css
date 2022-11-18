@@ -39,6 +39,46 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.projectManagement {
+  font-family: "Inter", sans-serif;
+}
+
+.projectManagement .box1 {
+  margin-right: 60px;
+}
+
+.projectManagement .box2 {
+  background-color: #c4defd;
+}
+
+.projectManagement .sectionHeader {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.14px;
+  margin-top: 68px;
+  margin-bottom: 24px;
+  color: #212529;
+}
+
+.projectManagement .pText {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.projectManagement .btn-main {
+  margin-bottom: 68px;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .btn-main {
   background-color: var(--primaryTwo);
   color: var(--secondaryWhite);
