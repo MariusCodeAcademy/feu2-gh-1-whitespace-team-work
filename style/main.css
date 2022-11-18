@@ -51,3 +51,23 @@ body {
   letter-spacing: -0.02em;
   font-family: 'Inter', sans-serif;
 }
+
+.chooseYourPlan .planContainer {
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+.chooseYourPlan .planContainer .sectionTitle {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.chooseYourPlan .planContainer .sectionSubtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto 60px;
+  max-width: 979px;
+}
