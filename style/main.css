@@ -17,15 +17,3 @@
   margin: 0 auto;
   padding: 10px;
 }
-
-/* footer */
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.footer-nav {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
