@@ -1,4 +1,4 @@
-@import "mainColor";
+@import "mainColor.css";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
 
 .extension {
@@ -50,4 +50,24 @@ body {
   max-width: 1480px;
   margin: 0 auto;
   padding: 10px;
+}
+
+.chooseYourPlan .planContainer {
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+.chooseYourPlan .planContainer .sectionTitle {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.chooseYourPlan .planContainer .sectionSubtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 auto 60px;
+  max-width: 979px;
 }
