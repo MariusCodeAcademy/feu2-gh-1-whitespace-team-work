@@ -1,15 +1,27 @@
-'use strict';
-console.log('main.js');
+"use strict";
+console.log("main.js");
 
-const headerEl = document.getElementById('header');
+// kreipiames i html div elementus
+const headerEl = document.getElementById("header");
+const projectManagment = document.getElementById("project-management");
+const workTogether = document.getElementById("work-togethert");
 
-async function loadHeader() {
+// daugkartine funkcija
+async function loadHeader(fromWhere, toWhere) {
   try {
-    const resp = await fetch('components/header.html');
+    const resp = await fetch(fromWhere);
     const html = await resp.text();
-    headerEl.innerHTML = html;
+    toWhere.innerHTML = html;
   } catch (error) {
     console.warn(error);
   }
 }
-loadHeader();
+
+// Header
+loadHeader("components/header.html", headerEl);
+
+// ProjectManagment
+loadHeader("components/projectManagment.html", projectManagment);
+
+// Work together
+loadHeader("components/workTogether.html", workTogether);
