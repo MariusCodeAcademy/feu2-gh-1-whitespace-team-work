@@ -1,4 +1,4 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
 .footerBottom {
   display: flex;
@@ -49,4 +49,8 @@ hr {
 .hr.container {
   padding-top: 0;
   padding-bottom: 0;
+}
+@media screen and (max-width: 600px) {
+  .footerBottom {
+  }
 }
