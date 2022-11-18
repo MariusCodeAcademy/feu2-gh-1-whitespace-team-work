@@ -51,12 +51,6 @@ p {
   margin-top: 0;
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .card {
   padding: 1rem;
   box-shadow: 5px 5px 10px rgb(180, 190, 194);
