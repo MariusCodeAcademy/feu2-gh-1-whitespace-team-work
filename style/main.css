@@ -1,7 +1,8 @@
-@import 'reset.css';
-@import 'mainColor.css';
-@import 'header.css';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
+@import "reset.css";
+@import "mainColor.css";
+@import "header.css";
+@import "footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
 
 .container {
   max-width: 1480px;
@@ -25,7 +26,7 @@
 .extension h2,
 .extension p {
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .extension h2 {
@@ -45,7 +46,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .grid {
@@ -54,7 +55,7 @@ body {
 }
 
 .projectManagement {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .projectManagement .box1 {
@@ -94,7 +95,7 @@ body {
   font-weight: 500;
   line-height: 30px;
   letter-spacing: -0.02em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: none;
 }
 
@@ -107,7 +108,7 @@ body {
   font-weight: 500;
   line-height: 30px;
   letter-spacing: -0.02em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: none;
 }
 
@@ -205,7 +206,7 @@ footer {
 }
 
 .footerTop__title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -219,7 +220,7 @@ footer {
 }
 
 .footerTop__desc {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -229,7 +230,7 @@ footer {
 }
 
 .footerTop__text {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -245,7 +246,7 @@ footer {
   border-radius: 10px;
   width: fit-content;
   color: #212529;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .blue-plan {
