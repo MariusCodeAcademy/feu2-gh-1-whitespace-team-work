@@ -1,0 +1,32 @@
+@media screen and (max-width: 425px) {
+  footer {
+    height: 570px;
+  }
+  .footerTop_textBox {
+    width: 600px;
+    height: 533px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footerTop_textBox * {
+    text-align: left;
+  }
+  .footerTop__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+  }
+  .footerTop__desc {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .footerTop__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
