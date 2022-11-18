@@ -183,3 +183,25 @@ body {
   margin-bottom: 24px;
   color: #212529;
 }
+
+@media screen and (max-width: 768px) {
+  .workTogether {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 100px;
+    margin-bottom: 90px;
+  }
+  .wtgBox2 {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .wtgBox1 {
+    text-align: center;
+  }
+  .workTogetherPng {
+    width: 454px;
+    height: 422.67px;
+  }
+}
