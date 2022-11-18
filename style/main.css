@@ -1,11 +1,11 @@
-@import 'mainColor.css';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
+@import "mainColor.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
+
 .container {
   max-width: 1480px;
   margin: 0 auto;
   padding: 10px;
 }
-
 .extension {
   /* width: 1921px; */
   height: 759px;
@@ -20,7 +20,7 @@
 .extension h2,
 .extension p {
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .extension h2 {
   font-size: 72px;
@@ -36,7 +36,7 @@
   height: 479px;
 }
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .grid {
@@ -45,7 +45,7 @@ body {
 }
 
 .projectManagement {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .projectManagement .box1 {
@@ -85,7 +85,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.02em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: none;
 }
 
@@ -108,7 +108,11 @@ body {
   margin: 0 auto 60px;
   max-width: 979px;
 }
-
+.planGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
 .clientCard {
   background-color: var(--primaryTwo);
   max-width: 450px;
@@ -146,6 +150,7 @@ body {
   color: var(--primaryOne);
   font-size: 24px;
   line-height: 36px;
+>>>>>>> c96413fd6f1806cde33e2f175aa7f6ba1ba427a5
 }
 
 .clientOccupation {
@@ -170,7 +175,7 @@ footer {
   text-align: center;
 }
 .footerTop__title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -183,7 +188,7 @@ footer {
   padding-top: 140px;
 }
 .footerTop__desc {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -192,11 +197,73 @@ footer {
   letter-spacing: -0.02em;
 }
 .footerTop__text {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
   letter-spacing: -0.02em;
+}
+
+.white-plan {
+  padding: 40px 44px;
+  border: 1px solid var(--secondaryYellow);
+  background-color: var(--secondaryWhite);
+  border-radius: 10px;
+  width: fit-content;
+  color: #212529;
+  font-family: "Inter", sans-serif;
+}
+
+.white-plan .btn-secondary {
+  width: fit-content;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #212529;
+  background-color: var(--secondaryWhite);
+  padding: 16px 40px;
+  border: 1px solid var(--secondaryYellow);
+  margin-top: 25px;
+}
+.white-plan .plan-title {
+  margin-bottom: 25px;
+  margin-top: 0;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.white-plan .plan-price {
+  line-height: 44px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.white-plan .plan-subtitle {
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+}
+.white-plan .perks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+.white-plan .checkmark {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+}
+.white-plan .perks li {
+  display: flex;
+  align-items: center;
+  gap: 18px;
 }
