@@ -13,4 +13,8 @@
     font-size: 54px;
     line-height: 65px;
   }
+  .workWithSection {
+    background-image: url("/img/workWithBackground.png");
+    background-repeat: no-repeat;
+  }
 }
