@@ -248,6 +248,17 @@ footer {
   font-family: 'Inter', sans-serif;
 }
 
+.blue-plan {
+  padding: 40px 44px;
+  border: 1px solid var(--secondaryYellow);
+  background-color: var(--secondaryWhite);
+  border-radius: 10px;
+  width: fit-content;
+  color: var(--secondaryWhite);
+  background-color: var(--primaryOne);
+  font-family: 'Inter', sans-serif;
+}
+
 .white-plan .btn-secondary {
   width: fit-content;
   font-size: 16px;
@@ -260,6 +271,21 @@ footer {
   margin-top: 25px;
 }
 
+<<<<<<< HEAD
+.blue-plan .btn-secondary {
+  width: fit-content;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #212529;
+  background-color: var(--secondaryBlue);
+  padding: 16px 40px;
+  border: 1px solid var(--secondaryYellow);
+  margin-top: 25px;
+}
+
+=======
+>>>>>>> dev
 .white-plan .plan-title {
   margin-bottom: 25px;
   margin-top: 0;
@@ -268,6 +294,17 @@ footer {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
+.blue-plan .plan-title {
+  margin-bottom: 25px;
+  margin-top: 0;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+=======
+>>>>>>> dev
 .white-plan .plan-price {
   line-height: 44px;
   font-size: 36px;
@@ -276,6 +313,17 @@ footer {
   margin-top: 0;
 }
 
+<<<<<<< HEAD
+.blue-plan .plan-price {
+  line-height: 44px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+=======
+>>>>>>> dev
 .white-plan .plan-subtitle {
   margin-bottom: 25px;
   margin-top: 0;
@@ -285,6 +333,18 @@ footer {
   letter-spacing: -0.02em;
 }
 
+<<<<<<< HEAD
+.blue-plan .plan-subtitle {
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+}
+
+=======
+>>>>>>> dev
 .white-plan .perks {
   list-style-type: none;
   margin: 0;
@@ -294,18 +354,52 @@ footer {
   gap: 28px;
 }
 
+<<<<<<< HEAD
+.blue-plan .perks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+=======
+>>>>>>> dev
 .white-plan .checkmark {
   width: 18px;
   height: 18px;
   object-fit: cover;
 }
 
+<<<<<<< HEAD
+.blue-plan .checkmark {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+  color: var(--secondaryWhite);
+}
+
+=======
+>>>>>>> dev
 .white-plan .perks li {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  
+}
+
+<<<<<<< HEAD
+.blue-plan .perks li {
   display: flex;
   align-items: center;
   gap: 18px;
 }
 
+/*Choose your plan section*/
+
+
+=======
 /* Our sponsors sekcija */
 
 .our-sponsors_h2El {
@@ -342,3 +436,4 @@ footer {
   margin: 0;
   padding-left: 18px;
 }
+>>>>>>> dev
