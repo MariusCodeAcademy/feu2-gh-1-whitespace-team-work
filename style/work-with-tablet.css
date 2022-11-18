@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .insideWorkWith {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .insideWorkWith img {
+    width: 485px;
+    margin: 0 auto;
+  }
+
+  .workWithTitle {
+    font-size: 54px;
+    line-height: 65px;
+  }
+}
