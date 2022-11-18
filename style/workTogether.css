@@ -1,5 +1,5 @@
-@import "mainColor.css";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
+@import 'mainColor.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
 
 .container {
   max-width: 1480px;
@@ -21,7 +21,7 @@
 .extension h2,
 .extension p {
   color: white;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .extension h2 {
   font-size: 72px;
@@ -37,7 +37,7 @@
   height: 479px;
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .grid {
@@ -46,7 +46,7 @@ body {
 }
 
 .projectManagement {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .projectManagement .box1 {
@@ -86,7 +86,7 @@ body {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.02em;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border: none;
 }
 
@@ -182,4 +182,25 @@ body {
   line-height: 87.15px;
   margin-bottom: 24px;
   color: #212529;
+}
+@media screen and (max-width: 768px) {
+  .workTogether {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 100px;
+    margin-bottom: 90px;
+  }
+  .wtgBox2 {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .wtgBox1 {
+    text-align: center;
+  }
+  .workTogetherPng {
+    width: 454px;
+    height: 422.67px;
+  }
 }
