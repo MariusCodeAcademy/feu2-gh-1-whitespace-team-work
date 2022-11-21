@@ -82,7 +82,7 @@ body {
   }
 }
 
-/* mobile */
+/* mobile from 425px*/
 
 @media screen and (max-width: 425px) {
   .hero {
