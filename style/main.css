@@ -555,7 +555,21 @@ footer {
   margin-bottom: 24px;
   color: #212529;
 }
+@media screen and (max-width: 320px) {
+  .wtgHeading {
+    font-size: 36px;
+  }
+  .workTogether {
+    gap: 60px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+  }
 
+  .wtgBox1 .workTogetherPng {
+    width: 280px;
+    height: 260px;
+  }
+}
 @media screen and (max-width: 768px) {
   .workTogether {
     display: flex;
