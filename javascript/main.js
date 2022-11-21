@@ -30,7 +30,7 @@ loadComponent('components/hero.html', heroEl);
 loadComponent('components/projectManagment.html', projectManagment);
 
 // Work together
-// loadComponent('components/workTogether.html', workTogether);
+loadComponent('components/workTogether.html', workTogether);
 
 // Work together
 loadComponent('components/our-clients.html', ourClientsEl);

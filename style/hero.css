@@ -1,14 +1,14 @@
-@import "reset.css";
-@import "mainColor.css";
-@import "main.css";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import 'reset.css';
+@import 'mainColor.css';
+@import 'main.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 .container {
   max-width: 1480px;
   margin: 0 auto;
   padding: 10px;
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .hero {
   padding: 140px 220px;
@@ -48,4 +48,36 @@ body {
   align-items: center;
   gap: 10px;
   margin-top: 60px;
+}
+.tabletVisible {
+  display: hidden;
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 140px 20px 100px;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+    background-image: url(../img/tablet-hero-background.png);
+    background-position: top 120px right 0px;
+  }
+  .hero-text {
+    max-width: none;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .hero-title {
+    font-size: 54px;
+    line-height: 65px;
+  }
+  .hero .btn-main {
+    padding: 20px 40px;
+    margin: 60px auto;
+  }
+  .hero-placeholder {
+    height: 367px;
+    width: 551px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
 }
