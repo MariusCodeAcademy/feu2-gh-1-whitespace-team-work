@@ -45,6 +45,6 @@
   .relative_span::after {
     content: url(../img/Vector_mobile_app.png);
     left: 0%;
-    top: 50%;
+    top: 52%;
   }
 }
