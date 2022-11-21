@@ -605,3 +605,35 @@ footer {
 }
 
 /* hero responsive end */
+
+/* project management TABLET */
+
+@media screen and (max-width: 768px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectManagement .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectManagement .box2 {
+    background-color: #c4defd;
+    width: 561px;
+    height: 349px;
+  }
+
+  .projectManagement .sectionHeader {
+    text-align: center;
+  }
+
+  .projectManagement .pText {
+    text-align: center;
+  }
+}
+
+/* project management TABLET  end */
