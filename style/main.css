@@ -425,6 +425,7 @@ footer {
   margin: 0;
   padding-left: 18px;
 }
+
 @media screen and (max-width: 768px) {
   .our-sponsors_icons {
     flex-direction: column;
@@ -571,3 +572,36 @@ footer {
   margin: auto;
 }
 /* our clients END */
+
+/* hero responsive start */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 140px 20px 100px;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+    background-image: url(../img/tablet-hero-background.png);
+    background-position: top 120px right 0px;
+  }
+  .hero-text {
+    max-width: none;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .hero-title {
+    font-size: 54px;
+    line-height: 65px;
+  }
+  .hero .btn-main {
+    padding: 20px 40px;
+    margin: 60px auto;
+  }
+  .hero-placeholder {
+    height: 367px;
+    width: 551px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+/* hero responsive end */
