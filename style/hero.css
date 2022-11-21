@@ -1,0 +1,51 @@
+@import "reset.css";
+@import "mainColor.css";
+@import "main.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 10px;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.hero {
+  padding: 140px 220px;
+  background-color: var(--primaryOne);
+  color: var(--secondaryWhite);
+  display: flex;
+  gap: 30px;
+  background-image: url(../img/hero-background.png);
+  background-repeat: no-repeat;
+  background-position: top 192px right 0px;
+}
+.hero-text {
+  max-width: 656px;
+  margin: 94px 0;
+}
+.hero-title {
+  font-size: 64px;
+  line-height: 77px;
+  font-weight: 700;
+}
+.hero-subtitle {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 24px;
+}
+.hero-placeholder {
+  background-color: #c4defd;
+  height: 549px;
+  width: 824px;
+}
+
+.hero .btn-main {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+}
