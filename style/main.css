@@ -189,7 +189,6 @@ body {
 footer {
   background-color: #043873;
   color: white;
-  height: 705px;
 }
 
 .footerTop_textBox {
@@ -758,6 +757,82 @@ footer {
 }
 
 /*  your data END */
+/* footer bottom START */
+.footerBottom .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 20px;
+  font-weight: 400;
+  margin-top: 33px;
+  padding-bottom: 32px;
+}
+
+.footerBottom .terms {
+  min-width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerBottom .socials {
+  width: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerBottom .languageChange {
+  display: flex;
+}
+
+.footerBottom a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footerBottom p {
+  margin: 0;
+  padding: 0 6px;
+}
+
+footer {
+  background-color: #043873;
+  color: #fff;
+}
+.footerBottom hr {
+  background: rgba(46, 78, 115, 1);
+  border: none;
+  height: 1px;
+}
+.hr.container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 700px) {
+  .footerBottom .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerBottom .terms {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .languageChange {
+    margin: 0 auto;
+  }
+  .footerBottom .socials {
+    padding-top: 40px;
+  }
+  .footerBottom .hr {
+    background: #043873;
+  }
+}
+
+/* footer bottom END */
 
 /* project management MOBILE */
 
