@@ -7,6 +7,7 @@ const projectManagment = document.getElementById('project-management');
 const workTogether = document.getElementById('work-togethert');
 const heroEl = document.getElementById('hero');
 const ourClientsEl = document.getElementById('our-clients');
+const yourDataEl = document.getElementById('your-data');
 
 // daugkartine funkcija
 async function loadComponent(fromWhere, toWhere) {
@@ -33,3 +34,6 @@ loadComponent('components/workTogether.html', workTogether);
 
 // Work together
 loadComponent('components/our-clients.html', ourClientsEl);
+
+// Your data
+loadComponent('components/your-data.html', yourDataEl);
