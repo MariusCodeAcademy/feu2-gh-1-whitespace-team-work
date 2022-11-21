@@ -11,6 +11,7 @@ const ourSponsorsEl = document.getElementById('our-sponsors');
 const yourDataEl = document.getElementById('your-data');
 const footerGridEl = document.getElementById('footer-grid');
 const footerBottomEl = document.getElementById('footer-bottom');
+const footerTopEl = document.getElementById('footer-top');
 
 // daugkartine funkcija
 async function loadComponent(fromWhere, toWhere) {
@@ -43,6 +44,9 @@ loadComponent('components/our_sponsors.html', ourSponsorsEl);
 
 // Your data
 loadComponent('components/your-data.html', yourDataEl);
+
+// Footer Top
+loadComponent('components/footerTop.html', footerTopEl);
 
 // Footer Grid
 loadComponent('components/footerGrid.html', footerGridEl);
