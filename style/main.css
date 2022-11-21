@@ -42,7 +42,7 @@
 .innerBox {
   background-color: #c4defd;
   width: 686px;
-  height: 479px;
+  /* height: 479px; */
 }
 
 body {
@@ -153,7 +153,6 @@ body {
   line-height: 30px;
   margin-top: 32px;
   letter-spacing: -0.02em;
-  width: 391px;
 }
 
 .line {
@@ -246,6 +245,17 @@ footer {
   border-radius: 10px;
   width: fit-content;
   color: #212529;
+  font-family: 'Inter', sans-serif;
+}
+
+.blue-plan {
+  padding: 40px 44px;
+  border: 1px solid var(--secondaryYellow);
+  background-color: var(--secondaryWhite);
+  border-radius: 10px;
+  width: fit-content;
+  color: var(--secondaryWhite);
+  background-color: var(--primaryOne);
   font-family: 'Inter', sans-serif;
 }
 
@@ -415,6 +425,7 @@ footer {
   margin: 0;
   padding-left: 18px;
 }
+
 @media screen and (max-width: 768px) {
   .our-sponsors_icons {
     flex-direction: column;
@@ -424,3 +435,323 @@ footer {
     margin-top: 120px;
   }
 }
+
+/* hero start */
+.hero {
+  padding: 140px 220px;
+  background-color: var(--primaryOne);
+  color: var(--secondaryWhite);
+  display: flex;
+  gap: 30px;
+  background-image: url(../img/hero-background.png);
+  background-repeat: no-repeat;
+  background-position: top 192px right 0px;
+}
+.hero-text {
+  max-width: 656px;
+  margin: 94px 0;
+}
+.hero-title {
+  font-size: 64px;
+  line-height: 77px;
+  font-weight: 700;
+}
+.hero-subtitle {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 24px;
+}
+.hero-placeholder {
+  background-color: #c4defd;
+  height: 549px;
+  width: 824px;
+}
+
+.hero .btn-main {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+}
+/* Hero ENd */
+
+/*  work together start */
+
+.clientCard {
+  background-color: var(--primaryTwo);
+  max-width: 450px;
+  border-radius: 10px;
+  padding: 60px 40px;
+  color: var(--secondaryWhite);
+}
+
+.clientQuote {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 32px;
+  letter-spacing: -0.02em;
+  /* width: 391px; */
+}
+
+.line {
+  background-color: var(--secondaryWhite);
+  height: 1px;
+  margin-top: 40px;
+}
+
+.clientInfo {
+  display: grid;
+  grid-template-columns: 95px 1fr;
+  align-items: center;
+  margin-top: 60px;
+  gap: 42px;
+}
+
+.clientText {
+  width: 260px;
+}
+.clientName {
+  color: var(--primaryOne);
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.clientOccupation {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.workTogether {
+  height: 643px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 160px;
+}
+.workTogetherPng {
+  height: 543px;
+  width: 583px;
+}
+.wtgBox2 {
+  padding-top: 109px;
+  padding-bottom: 109px;
+}
+
+.workTogether p {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+.wtgHeading {
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.15px;
+  margin-bottom: 24px;
+  color: #212529;
+}
+
+@media screen and (max-width: 768px) {
+  .workTogether {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 100px;
+    margin-bottom: 90px;
+  }
+  .wtgBox2 {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .wtgBox1 {
+    text-align: center;
+  }
+  .workTogetherPng {
+    width: 454px;
+    height: 422.67px;
+  }
+}
+
+/*  work together start */
+
+.client-cards {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.relative {
+  position: relative;
+}
+
+.underline {
+  position: absolute;
+  right: 290px;
+  top: 30px;
+  z-index: -1;
+}
+
+.slider {
+  max-width: 60px;
+  display: block;
+  margin: auto;
+}
+/* our clients END */
+
+/* hero responsive start */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 140px 20px 100px;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+    background-image: url(../img/tablet-hero-background.png);
+    background-position: top 120px right 0px;
+  }
+  .hero-text {
+    max-width: none;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .hero-title {
+    font-size: 54px;
+    line-height: 65px;
+  }
+  .hero .btn-main {
+    padding: 20px 40px;
+    margin: 60px auto;
+  }
+  .hero-placeholder {
+    height: 367px;
+    width: 551px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+/* hero responsive end */
+
+/* project management TABLET */
+
+@media screen and (max-width: 768px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectManagement .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectManagement .box2 {
+    background-color: #c4defd;
+    width: 561px;
+    height: 349px;
+  }
+
+  .projectManagement .sectionHeader {
+    text-align: center;
+  }
+
+  .projectManagement .pText {
+    text-align: center;
+  }
+}
+
+/* project management TABLET  end */
+=======
+/* our clients START */
+.clients-title {
+  font-size: 70px;
+  line-height: 84px;
+  text-align: center;
+  color: #212529;
+  font-weight: 700;
+}
+.clientCardWhite {
+  background-color: var(--secondaryWhite);
+  max-width: 450px;
+  border-radius: 10px;
+  padding: 60px 40px;
+  box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.darkLine {
+  background-color: black;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.clientNameDark {
+  color: black;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/*  your data START */
+.yourDataSect h2 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+.yourDataSect p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.yourDataSect .btn-main {
+  margin-top: 50px;
+}
+
+.yourDataSect {
+  background-image: url(../img/textDecor.png);
+  background-repeat: no-repeat;
+  background-position: 200px 60px;
+}
+@media screen and (max-width: 768px) {
+  .container.grid {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .container.grid img {
+    margin: 140px auto 100px;
+    width: 513px;
+  }
+  .yourDataSect {
+    text-align: center;
+  }
+  .yourDataSect p {
+    margin-bottom: 10px;
+  }
+  .yourDataSect h2 {
+    font-size: 54px;
+    line-height: 65px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .yourDataSect button {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .yourDataSect {
+    background-image: url(../img/textDecor.png);
+    background-repeat: no-repeat;
+    background-position: 78% 40px;
+  }
+}
+
+/*  your data END */

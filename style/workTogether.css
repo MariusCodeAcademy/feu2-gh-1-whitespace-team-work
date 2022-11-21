@@ -183,6 +183,7 @@ body {
   margin-bottom: 24px;
   color: #212529;
 }
+
 @media screen and (max-width: 768px) {
   .workTogether {
     display: flex;
