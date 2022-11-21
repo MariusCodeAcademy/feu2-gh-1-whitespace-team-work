@@ -1,26 +1,23 @@
-@import "mainColor.css";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); /* Google font inter*/
+@import 'mainColor.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
 
 .app_container {
-  width: 1921px;
-  margin: 5px auto;
+  max-width: 1921px;
+  margin: 0px auto;
   padding: 140px 0;
   background-color: var(--primaryOne);
+  overflow: hidden;
   text-align: center;
   position: relative;
 }
 
 .app_content_container {
-  width: 1064px;
+  max-width: 1064px;
   margin: 0 auto;
 }
 
-.title_container {
-  position: relative;
-}
-
 .app_title {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -28,13 +25,12 @@
   letter-spacing: -0.02em;
   color: var(--secondaryWhite);
   margin: 0 0 24px;
-  position: static;
   z-index: 10;
   position: relative;
 }
 
 .app_paragraph {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -50,18 +46,19 @@
   left: 0;
 }
 
-.app_vector_image {
-  position: absolute;
-  z-index: 1;
-  right: -1.5%;
-  bottom: 1%;
+.app_btn {
+  margin: 0 auto;
+  cursor: pointer;
 }
 
-.app_btn {
-  display: flex;
-  align-self: center;
-  align-items: center;
-  margin: 0 auto;
-  gap: 5px;
-  cursor: pointer;
+.relative_span {
+  position: relative;
+}
+
+.relative_span::after {
+  content: url(../img/Vector.png);
+  position: absolute;
+  left: -160%;
+  top: 22%;
+  z-index: -1;
 }

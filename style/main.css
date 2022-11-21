@@ -640,7 +640,7 @@ footer {
 /* project management TABLET */
 
 @media screen and (max-width: 768px) {
-  .grid {
+  #project-management .grid {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -833,3 +833,16 @@ footer {
 }
 
 /* footer bottom END */
+
+/* project management MOBILE */
+
+@media screen and (max-width: 425px) {
+  #project-management .grid {
+    flex-direction: column;
+  }
+  .box1 .sectionHeader {
+    font-size: 36px;
+    line-height: normal;
+    margin-top: 98px;
+  }
+}
