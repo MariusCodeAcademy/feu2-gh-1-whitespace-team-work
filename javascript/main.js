@@ -12,6 +12,7 @@ const yourDataEl = document.getElementById('your-data');
 const footerGridEl = document.getElementById('footer-grid');
 const footerBottomEl = document.getElementById('footer-bottom');
 const footerTopEl = document.getElementById('footer-top');
+const appSectionEl = document.getElementById('app-section');
 
 // daugkartine funkcija
 async function loadComponent(fromWhere, toWhere) {
@@ -53,3 +54,6 @@ loadComponent('components/footerGrid.html', footerGridEl);
 
 // Footer Bottom
 loadComponent('components/footerBottom.html', footerBottomEl);
+
+// App section
+loadComponent('components/appSection.html', appSectionEl);
