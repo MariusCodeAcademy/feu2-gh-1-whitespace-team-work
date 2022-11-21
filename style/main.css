@@ -2,6 +2,7 @@
 @import 'mainColor.css';
 @import 'header.css';
 @import 'footer.css';
+@import 'footer-grid.css';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'); /* Google font inter*/
 
 .container {
@@ -666,7 +667,7 @@ footer {
 }
 
 /* project management TABLET  end */
-=======
+
 /* our clients START */
 .clients-title {
   font-size: 70px;
