@@ -8,6 +8,9 @@ const workTogether = document.getElementById('work-togethert');
 const heroEl = document.getElementById('hero');
 const ourClientsEl = document.getElementById('our-clients');
 const ourSponsorsEl = document.getElementById('our-sponsors');
+const yourDataEl = document.getElementById('your-data');
+const footerGridEl = document.getElementById('footer-grid');
+const footerBottomEl = document.getElementById('footer-bottom');
 
 // daugkartine funkcija
 async function loadComponent(fromWhere, toWhere) {
@@ -37,3 +40,12 @@ loadComponent('components/our-clients.html', ourClientsEl);
 
 // Our Sponsors
 loadComponent('components/our_sponsors.html', ourSponsorsEl);
+
+// Your data
+loadComponent('components/your-data.html', yourDataEl);
+
+// Footer Grid
+loadComponent('components/footerGrid.html', footerGridEl);
+
+// Footer Bottom
+loadComponent('components/footerBottom.html', footerBottomEl);
