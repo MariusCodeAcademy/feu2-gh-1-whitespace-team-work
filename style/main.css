@@ -478,33 +478,8 @@ footer {
 }
 /* Hero ENd */
 
-/* our clients START */
-.clients-title {
-  font-size: 70px;
-  line-height: 84px;
-  text-align: center;
-  color: #212529;
-  font-weight: 700;
-}
-.clientCardWhite {
-  background-color: var(--secondaryWhite);
-  max-width: 450px;
-  border-radius: 10px;
-  padding: 60px 40px;
-  box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
-}
+/*  work together start */
 
-.darkLine {
-  background-color: black;
-  height: 1px;
-  margin-top: 40px;
-}
-
-.clientNameDark {
-  color: black;
-  font-size: 24px;
-  line-height: 36px;
-}
 .clientCard {
   background-color: var(--primaryTwo);
   max-width: 450px;
@@ -548,6 +523,60 @@ footer {
   font-size: 16px;
   line-height: 20px;
 }
+
+.workTogether {
+  height: 643px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 160px;
+}
+.workTogetherPng {
+  height: 543px;
+  width: 583px;
+}
+.wtgBox2 {
+  padding-top: 109px;
+  padding-bottom: 109px;
+}
+
+.workTogether p {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+.wtgHeading {
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.15px;
+  margin-bottom: 24px;
+  color: #212529;
+}
+
+@media screen and (max-width: 768px) {
+  .workTogether {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 100px;
+    margin-bottom: 90px;
+  }
+  .wtgBox2 {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .wtgBox1 {
+    text-align: center;
+  }
+  .workTogetherPng {
+    width: 454px;
+    height: 422.67px;
+  }
+}
+
+/*  work together start */
 
 .client-cards {
   display: flex;
@@ -637,3 +666,31 @@ footer {
 }
 
 /* project management TABLET  end */
+=======
+/* our clients START */
+.clients-title {
+  font-size: 70px;
+  line-height: 84px;
+  text-align: center;
+  color: #212529;
+  font-weight: 700;
+}
+.clientCardWhite {
+  background-color: var(--secondaryWhite);
+  max-width: 450px;
+  border-radius: 10px;
+  padding: 60px 40px;
+  box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.darkLine {
+  background-color: black;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.clientNameDark {
+  color: black;
+  font-size: 24px;
+  line-height: 36px;
+}
