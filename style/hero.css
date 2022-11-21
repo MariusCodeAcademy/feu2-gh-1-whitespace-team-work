@@ -81,3 +81,33 @@ body {
     margin-top: 40px;
   }
 }
+
+/* mobile */
+
+@media screen and (max-width: 425px) {
+  .hero {
+    padding: 80px 16px 80px;
+    display: flex;
+    flex-direction: column;
+    background-position: 21px 11px;
+  }
+  .hero-placeholder {
+    height: 191px;
+    width: 286px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    width: 340px;
+    margin: auto;
+  }
+}
+/* mobile done */
