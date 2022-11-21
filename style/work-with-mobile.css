@@ -1,0 +1,26 @@
+@media screen and (max-width: 425px) {
+  .insideWorkWith {
+    gap: 100px;
+  }
+
+  .workWithSection {
+    max-width: 425px;
+    padding: 0;
+  }
+  .insideWorkWith img {
+    width: 370px;
+    margin: 0 auto;
+  }
+  .container {
+    padding: 80px 16px 80px 16px;
+  }
+  .workWithTitle {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .btn-main {
+    width: 193px;
+    height: 70px;
+  }
+}
