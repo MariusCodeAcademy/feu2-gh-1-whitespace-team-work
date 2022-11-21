@@ -1,6 +1,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
-.footerBottom {
+.footerBottom .container {
   display: flex;
   justify-content: space-between;
   padding-top: 0;
@@ -12,7 +12,7 @@
 }
 
 .footerBottom .terms {
-  width: 50%;
+  min-width: 50%;
   display: flex;
   justify-content: space-between;
 }
@@ -28,6 +28,7 @@
 }
 
 .footerBottom a {
+  padding-left: 10px;
   text-decoration: none;
   color: #fff;
 }
@@ -41,7 +42,7 @@ footer {
   background-color: #043873;
   color: #fff;
 }
-hr {
+.footerBottom hr {
   background: rgba(46, 78, 115, 1);
   border: none;
   height: 1px;
@@ -50,7 +51,25 @@ hr {
   padding-top: 0;
   padding-bottom: 0;
 }
-@media screen and (max-width: 600px) {
-  .footerBottom {
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 700px) {
+  .footerBottom .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerBottom .terms {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .languageChange {
+    margin: 0 auto;
+  }
+  .footerBottom .socials {
+    padding-top: 40px;
+  }
+  .footerBottom .hr {
+    background: #043873;
   }
 }
