@@ -1,18 +1,25 @@
+/* Header Start */
 header {
   margin: 0;
   height: 92px;
+  width: 100%;
   background-color: var(--primaryOne);
   color: var(--secondaryDarkGrey);
 }
 
 header .container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 header ul {
+  padding-left: 0;
   margin: 0;
   list-style: none;
   display: flex;
@@ -46,3 +53,58 @@ header button {
   display: flex;
   align-items: center;
 }
+
+nav .navDropDown{
+  display: none;
+  position: relative;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.navDropDown .navDropdown__ul{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 195%;
+  width: 200px;
+}
+.navDropdown__ul button {
+  background-color: var(--secondaryDarkGrey);
+  color: var(--primaryOne);
+  width: 200px;
+  display: grid;
+  place-items: center;
+  margin-top: 0.5rem;
+
+}
+
+.navDropdown__ul a {
+margin-left: 0;
+}
+
+  /* HEADER MEDIA START */
+  /* max-width: 1520px ivesta, kad prisitaikytu prie conteinerio plocio */
+  @media screen and (max-width: 1520px) {
+    header .container {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
+    nav .pcNavOnly{
+      display:none;
+    }
+    nav .navDropDown{
+      display: grid;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .tabletNav{
+      display: none;
+    }    
+  }
+  /* HEADER MEDIA END */
+/* Header END */

@@ -3,13 +3,37 @@
     <img src="./img/logo/Logo.png" alt="Logo image" />
     <nav>
       <ul>
-        <li><a href="">Products <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-        <li><a href="">Solutions <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-        <li><a href="">Resources <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-        <li><a href="">Pricing <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
-        <li><a href=""><button class="btn-secondary">Login</button></a></li>
-        <li><a href=""><button class="btn-main">Try Whitepace free<i class="fa fa-arrow-right"
-                aria-hidden="true"></i></button></a></li>
+        <li><a class="pcNavOnly" href="">Products <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+        <li><a class="pcNavOnly" href="">Solutions <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+        <li><a class="pcNavOnly" href="">Resources <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+        <li><a class="pcNavOnly" href="">Pricing <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+        <li><a class="tabletNav" href=""><button class="btn-secondary">Login</button></a></li>
+        <li><a class="tabletNav" href=""><button class="btn-main">Try Whitepace
+              free<i class="fa fa-arrow-right" aria-hidden="true"></i></button></a></li>
+        <i id="headerNavDropDown" class="fa fa-bars navDropDown" aria-hidden="true">
+          <ul class="navDropdown__ul">
+            <li>
+              <button class="btn-main">
+                <a href="">Products</a>
+              </button>
+            </li>
+            <li>
+              <button class="btn-main">
+                <a href="">Solutions</a>
+              </button>
+            </li>
+            <li>
+              <button class="btn-main">
+                <a href="">Resources</a>
+              </button>
+            </li>
+            <li>
+              <button class="btn-main">
+                <a href="">Pricing</a>
+              </button>
+            </li>
+          </ul>
+        </i>
       </ul>
     </nav>
   </div>
