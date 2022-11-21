@@ -571,3 +571,64 @@ footer {
   margin: auto;
 }
 /* our clients END */
+
+/*  your data START */
+.yourDataSect h2 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+.yourDataSect p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.yourDataSect .btn-main {
+  margin-top: 50px;
+}
+
+.yourDataSect {
+  background-image: url(../img/textDecor.png);
+  background-repeat: no-repeat;
+  background-position: 200px 60px;
+}
+@media screen and (max-width: 768px) {
+  .container.grid {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .container.grid img {
+    margin: 140px auto 100px;
+    width: 513px;
+  }
+  .yourDataSect {
+    text-align: center;
+  }
+  .yourDataSect p {
+    margin-bottom: 10px;
+  }
+  .yourDataSect h2 {
+    font-size: 54px;
+    line-height: 65px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .yourDataSect button {
+    font-size: 16px;
+    line-height: 1;
+  }
+  .yourDataSect {
+    background-image: url(../img/textDecor.png);
+    background-repeat: no-repeat;
+    background-position: 78% 40px;
+  }
+}
+
+/*  your data END */
