@@ -6,6 +6,7 @@ const headerEl = document.getElementById('header');
 const projectManagment = document.getElementById('project-management');
 const workTogether = document.getElementById('work-togethert');
 const heroEl = document.getElementById('hero');
+const ourClientsEl = document.getElementById('our-clients');
 
 // daugkartine funkcija
 async function loadComponent(fromWhere, toWhere) {
@@ -28,4 +29,7 @@ loadComponent('components/hero.html', heroEl);
 loadComponent('components/projectManagment.html', projectManagment);
 
 // Work together
-loadComponent('components/workTogether.html', workTogether);
+// loadComponent('components/workTogether.html', workTogether);
+
+// Work together
+loadComponent('components/our-clients.html', ourClientsEl);
